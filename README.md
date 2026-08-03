@@ -56,52 +56,42 @@ blacklisted external destination and determining the associated security risk.
 
 ## Scenario Results
 
-- Alerts investigated: 5
-- True-positive identification rate: 100%
-- Mean time to resolve: 13 minutes
-- Mean dwell time: 21 minutes
-- Scenario points: 125
-- Alert types: Phishing and Firewall
+### Scenario Completion
 
-The scenario reported a 100% overall true-positive identification rate.
-However, two individual alert analyses were marked incorrect. These results
-were reviewed as learning opportunities to improve evidence interpretation and
-incident-reporting quality.
+Successfully completed the simulated SOC scenario by investigating five security alerts and identifying all true-positive alerts.
 
-## Skills Demonstrated
+![TryHackMe SOC Simulator scenario completion](scenario-completion.png)
 
-- SOC alert monitoring and triage
-- Phishing alert investigation
-- Suspicious URL analysis
-- Firewall alert analysis
-- True-positive and false-positive classification
-- Incident documentation
-- Security event prioritisation
-- Mean Time to Resolve analysis
-- Escalation and response recommendations
-- Clear technical reporting
+### Performance Metrics
 
-## Reporting Improvements
+| Metric | Result |
+|---|---:|
+| Alerts investigated and closed | 5 |
+| True-positive identification rate | 100% |
+| Mean time to resolve | 13 minutes |
+| Mean dwell time | 21 minutes |
+| Scenario points | 125 |
 
-The simulator feedback indicated that the reports successfully identified the
-affected entities and malicious activity.
+No false-positive alerts were closed during this scenario; therefore, a false-positive identification rate was not calculated.
 
-The main improvement areas were:
+![SOC Simulator performance metrics](performance-metrics.png)
 
-- Explaining why the activity was malicious
-- Describing the potential impact of the URL or event
-- Providing more detail about who was affected
-- Identifying where the activity occurred
-- Improving the context surrounding the timeline
+### Alert Investigation Results
 
-Future reports will follow the 5W1H structure:
+The scenario included four phishing alerts involving suspicious external links and one high-severity firewall alert involving access to a blacklisted external URL.
 
-- What happened?
-- When did it happen?
-- Where did it happen?
-- Who was affected?
-- Why is it considered suspicious?
-- How should the incident be handled?
+![SOC alert investigation results](alert-investigation-results.png)
+
+The simulator reported a 100% overall true-positive identification rate. However, two individual investigation reports were marked incorrect. The feedback showed that my reports needed more detail about why the activity was malicious, who and where it affected, and its potential impact.
+
+I used this feedback to improve my reporting approach by following the **5W1H framework**:
+
+- **What:** What activity occurred?
+- **When:** When did the event occur?
+- **Where:** Which system, endpoint, or network location was affected?
+- **Who:** Which user or entity was involved?
+- **Why:** Why was the activity considered suspicious or malicious?
+- **How:** How should the incident be contained, escalated, or resolved?
 
 
 ## Disclaimer
