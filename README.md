@@ -96,9 +96,7 @@ I used this feedback to improve my reporting approach by following the **5W1H fr
 
 ## Disclaimer
 
-This repository documents a cybersecurity training exercise completed in a
-simulated SOC environment. All events, users, systems, and incidents were part
-of the simulation.
+This repository documents a hands-on cybersecurity investigation completed in the TryHackMe SOC Simulator. All alerts, systems, users, and incidents were part of a simulated training environment.
 
 https://tryhackme.com/soc-sim/public-summary/4c56e7fa3931a1d86732297708cb6630a63a2a516bdbfa21e8df62b2a122efec5d6f317f41056c028b3c5a8993998619
 
