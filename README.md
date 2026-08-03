@@ -103,19 +103,6 @@ Future reports will follow the 5W1H structure:
 - Why is it considered suspicious?
 - How should the incident be handled?
 
-## Evidence
-
-### Scenario Completion
-
-![Scenario completion](evidence/scenario-completion.png)
-
-### Investigation Results
-
-![Alert analysis](evidence/alert-analysis.png)
-
-### Performance Metrics
-
-![Performance metrics](evidence/performance-metrics.png)
 
 ## Disclaimer
 
