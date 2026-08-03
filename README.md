@@ -1,4 +1,4 @@
-# TryHackme
+# TryHackme SOC Simulation Lab
 
 # SOC Alert Triage and Phishing Investigation Lab
 
